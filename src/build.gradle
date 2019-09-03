@@ -38,6 +38,9 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 	compile('org.springframework.session:spring-session-jdbc')
 
+	//Подключаем Веб Сокет
+	compile("org.springframework.boot:spring-boot-starter-websocket")
+
 	//Если сборка происходит дома -то эти зависимости нужны - на работе нет
 	//compile('com.sun.xml.bind:jaxb-core')
 	//compile('com.sun.xml.bind:jaxb-impl')
